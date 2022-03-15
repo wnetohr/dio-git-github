@@ -1,0 +1,48 @@
+Git config:
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+Criando projeto:
+
+git init
+
+touch .gitignore
+git add .gitignore
+git commit -m "Versão inicial do projeto"
+
+Git clone:
+
+git clone [URL]
+
+Comandos básicos:
+
+git add		#gravando alterações
+
+git status	#verificando status
+
+git diff 	#verificando mudanças
+
+git commit -m "mensagem"	#commitar
+
+git commit -a -m "mensagem"	#commitar arquivos versionados mesmo não estando no Stage
+
+git rm -f {arquivo} 	#remover arquivo
+
+git mv arquivo_origem arquivo_destino #movendo arquivos
+
+git branch nome_branch 		#criando branch
+
+git checkout nome_branch 	#mudando de branch
+
+git checkout -b {nome_da_branch} 	#criar branch e mudar para ela
+
+Git merge:
+
+git checkout master
+git merge iss53
+
+git mergetool 	#resolvendo conflitos
+
+git log 	#histórico de commits
+
